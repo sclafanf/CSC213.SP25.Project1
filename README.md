@@ -433,6 +433,7 @@ echo "✅ Build complete! Run it with: java -jar $JAR_FILE"
 | **CSV File Output** (10 pts) | Outputs correctly formatted CSV file with `Deck Size, Hand Size, Trial, Attempts, Time (sec)`. | **10** |
 
 #Helpful Hints#
+
 A Project 1 playground has been created for you on Zybooks.  You can try to do your development there.  However, it does not play nicely with GitHub - meaning you will need to download the project to one of the lab machines and then get it into GitHub.
 
 Or, we can try and use these Ubuntu machines.  We will need to install Visual Studio Code.  Let's give it a try I guess!  This should work to install it:
