@@ -432,7 +432,7 @@ echo "✅ Build complete! Run it with: java -jar $JAR_FILE"
 |  | `.jar` runs correctly with `java -jar uniquehands.jar`. | **5** |
 | **CSV File Output** (10 pts) | Outputs correctly formatted CSV file with `Deck Size, Hand Size, Trial, Attempts, Time (sec)`. | **10** |
 
-#Helpful Hints#
+## Helpful Hints
 
 A Project 1 playground has been created for you on Zybooks.  You can try to do your development there.  However, it does not play nicely with GitHub - meaning you will need to download the project to one of the lab machines and then get it into GitHub.
 
