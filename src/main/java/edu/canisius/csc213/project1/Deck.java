@@ -27,8 +27,17 @@ public class Deck {
 
         }
         cards = new ArrayList<>();
-        initializeDeck(size);
+        
+        int cardType = size / 4;
+        Card.Rank[] ranks = Card.Rank.values();
+        for (int i = 0;i < cardType; i++){
+            for(Card.Suit suit : Card.Suit.values()){
+                cards.add(new Card(suit, ranks[i]));
+            }
+        }
     }
+    
+    /* 
     private void initializeDeck(int size) {
         while (cards.size() < size) {
             for (String cardRank : Ranks) {
@@ -39,12 +48,12 @@ public class Deck {
             }
         }
         }
+        */
 
         
         //  Card card1 = new Card(Card.Suit.CLUBS, Card.Rank.TEN);
         // card2 = new Card(Card.Suit.CLUBS, Card.Rank.TEN);
         // Card card3 = new Card(Card.Suit.DIAMONDS, Card.Rank.TEN);
-    }
     public void shuffle() {
         Collections.shuffle(cards);
     }
